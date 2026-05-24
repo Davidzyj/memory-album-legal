@@ -8,17 +8,20 @@
   </head>
   <body>
     <main class="page">
+      <nav class="language-switch" aria-label="Language">
+        <a aria-current="page" href="./">中文</a>
+        <a href="./en/">English</a>
+      </nav>
       <section class="hero">
         <p class="eyebrow">Memory Album</p>
-        <h1>回忆相册的公开支持页面已经准备好了</h1>
+        <h1>回忆相册支持与隐私中心</h1>
         <p>
-          这是一套可以直接用于 App Store 提审的静态页面。你不需要自建服务器，只需要把
-          `docs/` 发布到 GitHub Pages、Cloudflare Pages、Netlify 或 Vercel。
+          这里提供回忆相册的隐私政策和技术支持入口。当前版本围绕本地模板短片创作，不要求注册登录。
         </p>
         <div class="meta">
-          <span class="pill">适用于 App Store Connect</span>
-          <span class="pill">支持 HTTPS 公网访问</span>
-          <span class="pill">可直接托管静态文件</span>
+          <span class="pill">隐私政策</span>
+          <span class="pill">技术支持</span>
+          <span class="pill">中英文页面</span>
         </div>
         <div class="cta-row">
           <a class="button" href="./privacy/">查看隐私政策</a>
@@ -26,27 +29,26 @@
         </div>
       </section>
 
-      <p class="section-title">你现在最需要做的事</p>
+      <p class="section-title">页面入口</p>
       <section class="grid two">
         <article class="card">
-          <h2>1. 补齐联系信息</h2>
+          <h2>隐私政策</h2>
           <p>
-            先把支持邮箱替换成真实邮箱。没有服务器也没关系，`QQ 邮箱`、`Gmail`、`Outlook`
-            都可以作为支持邮箱使用。
+            说明应用如何读取相册素材、保存草稿，以及当前版本不会上传用户照片或视频到开发者服务器。
           </p>
+          <p><a href="./privacy/">打开隐私政策</a></p>
         </article>
         <article class="card">
-          <h2>2. 发布到静态托管</h2>
+          <h2>技术支持</h2>
           <p>
-            推荐优先用 GitHub Pages。如果你把当前仓库推到 GitHub，并把 Pages 源设置为
-            `main` 分支的 `/docs` 目录，这套页面就会自动变成公网 HTTPS 链接。
+            提供支持邮箱、常见问题和基础排查建议，适合作为 App Store Connect 的 Support URL。
           </p>
+          <p><a href="./support/">打开支持页面</a></p>
         </article>
       </section>
 
       <p class="footer-note">
-        页面文件位于 `docs/memory-album/`。如果你后面换成自定义域名，只需要保持
-        `privacy/` 和 `support/` 两个页面仍然可访问即可。
+        支持邮箱：<a href="mailto:jay212315@gmail.com">jay212315@gmail.com</a>
       </p>
     </main>
   </body>
